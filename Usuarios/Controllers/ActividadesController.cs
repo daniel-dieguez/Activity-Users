@@ -19,7 +19,7 @@ public class ActividadesController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet("/viewAll")] // Aquí se ajusta la ruta
+    [HttpGet("/Actividades/viewAll")] // Aquí se ajusta la ruta
     public async Task<ActionResult<IEnumerable<Actividad>>> GetActividades() // Cambiado a IEnumerable
     {
         _logger.LogInformation("Se ejecutó consulta de vista");
@@ -58,8 +58,7 @@ public class ActividadesController : ControllerBase
         var response = new Dictionary<String, Object>();
 
         
-        var existingActividad = await _actividadesContext.Actividades.FindAsync(id_activad);
-        existingActividad.actividad = actividad.actividad; // Solo actualiza los campos necesarios
+          // Solo actualiza los campos necesarios
 
         // Guarda los cambios
         await _actividadesContext.SaveChangesAsync();

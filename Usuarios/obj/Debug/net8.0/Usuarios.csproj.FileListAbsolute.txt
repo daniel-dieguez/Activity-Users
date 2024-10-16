@@ -166,3 +166,4 @@ D:\4)Proyectos\BackEnd\C #\2.proyectos\2.UserRegister\Usuarios\Usuarios\obj\Debu
 D:\4)Proyectos\BackEnd\C #\2.proyectos\2.UserRegister\Usuarios\Usuarios\obj\Debug\net8.0\Usuarios.pdb
 D:\4)Proyectos\BackEnd\C #\2.proyectos\2.UserRegister\Usuarios\Usuarios\obj\Debug\net8.0\Usuarios.genruntimeconfig.cache
 D:\4)Proyectos\BackEnd\C #\2.proyectos\2.UserRegister\Usuarios\Usuarios\obj\Debug\net8.0\ref\Usuarios.dll
+D:\4)Proyectos\BackEnd\C #\2.proyectos\2.UserRegister\Usuarios\Usuarios\obj\Debug\net8.0\Usuarios.sourcelink.json
