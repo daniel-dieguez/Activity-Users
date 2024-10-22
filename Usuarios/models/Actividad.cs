@@ -4,6 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace Usuarios.models;
 
+[Table("actividades")]
 public class Actividad
 {
     
